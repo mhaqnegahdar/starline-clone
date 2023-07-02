@@ -1,0 +1,239 @@
+//Salmani varialbes
+
+$primary: #888b97;
+$primary-light: #c4c5cc;
+$secondary: #ffffff;
+$secondary-light: #e0a500;
+$bg-icon: rgb(85, 118, 141, 0.5);
+$placehilder-dark: #6d6d6d;
+$bg-overlay: rgba(34, 34, 34, 0.9);
+$color-primary: #e0e0e0;
+$white: #ffffff;
+$color-secondary: #434343;
+$bg-text: rgba(64, 81, 93, 0.2);
+$bg-input-dark: rgb(61, 61, 61, 0.9);
+$color: #474747;
+$color-2: #707070;
+$gray-2: rgb(109, 109, 109, 0.6);
+$bg-paragraph: hsla(205, 18%, 31%, 0.2);
+$bg-input-light: #ffffff;
+$color-white-alpha-1: rgba(255, 255, 255, 0.2);
+$gradient: radial-gradient(
+  circle,
+  rgba(136, 139, 151, 0.7011846975118172) 0%,
+  rgba(136, 139, 151, 0.3) 24%,
+  rgba(33, 33, 33, 0) 49%,
+  rgba(33, 33, 33, 1) 100%
+);
+$gradient-lg: radial-gradient(
+  circle,
+  rgba(136, 139, 151, 0.7011846975118172) 0%,
+  rgba(136, 139, 151, 0.3) 16%,
+  rgba(33, 33, 33, 0) 36%,
+  rgba(33, 33, 33, 1) 100%
+);
+$gradient-section: linear-gradient(
+  180deg,
+  rgba(44, 44, 44, 1) 0%,
+  rgba(44, 44, 44, 1) 50%,
+  rgba(34, 34, 34, 1) 50%,
+  rgba(34, 34, 34, 1) 100%
+);
+$gradient-section-0Deg: linear-gradient(
+  0deg,
+  rgba(44, 44, 44, 1) 0%,
+  rgba(44, 44, 44, 1) 50%,
+  rgba(34, 34, 34, 1) 50%,
+  rgba(34, 34, 34, 1) 100%
+);
+$shadow-cart: 0 3px 6px hsla(0, 0%, 0%, 0.16);
+$text-shadow: 0 0px 3px rgba(0, 0%, 0%, 0.3);
+$border: 2px solid $color;
+// $border-light: 1px solid $gray;
+$border-light-light: 1px solid $color-secondary;
+$border-secondary-color: 2px solid $secondary;
+$border-white: 1px solid $white;
+$f-title-slider-sm: 34px Cheapsman;
+$f-title-slider: 50px Cheapsman;
+$f-counter-slider: 30px Cheapsman;
+$f-secondary: 16px Gothic_reqular;
+$f-primary: 16px Gothic_bold;
+$f-title-primary: 30px MontserratBold;
+$f-title-primary-footer: 20px MontserratBold;
+$f-title-secondary: 20px Corbel_Bold;
+$f-small-item-text: 10px MontserratMedium;
+$f-description: 14px MontserratRegular;
+$f-description-xl: 20px MontserratRegular;
+$f-small-item-description: 12px Bahnschrift;
+$f-components: 14px Bahnschrift;
+//colors
+$white-color: #ffffff;
+$light-black-color: #1c252b;
+$x-light-black-color: #283037;
+$x-dark-gray-color: #1e3848;
+$xx-dark-gray-color: #1d252c;
+$dark-gray-color: #999;
+// $gray-color: #40474d;
+// $x-gray-color: #707070;
+$xx-gray-color-alfa: 0.1;
+$xxx-gray-color-alfa: 0.2;
+$xxxx-gray-color-alfa: 0.05;
+$xx-gray-color: rgba($white-color, $xx-gray-color-alfa);
+$xxx-gray-color: rgba($white-color, $xxx-gray-color-alfa);
+$xxxx-gray-color: rgba($white-color, $xxxx-gray-color-alfa);
+
+$xx-light-gray-color: #adcad6;
+$dark-blue-color: #354c5b;
+$x-dark-blue-color: #1e3848;
+$blue-color: #3c91e6;
+$light-blue-color: #3e92cc;
+$light-red-color: #ff331f;
+
+/*----------------------------------------*/
+$red-color: #c40f22; //*
+$x-red-color: #ce242b; //*
+$gray-4: #333; //*
+$bg-gray: #2b2b2b; //*
+$gray: #303030; //*
+$light-gray-color: #e9ecef; //*
+$yellow-color: gold; //*
+$green: #5bcb09; //*
+
+/*----------------------------------------*/
+
+$brown-color: #bd9a7a;
+//new colors
+$gray-color: #646464;
+$x-gray-color: #1f1f1f;
+$x-light-gray: #e7e7e7;
+$black-color: #151515;
+$x_black_color: #1f1f1f;
+$medium-blue-color: #024a9b;
+$x-mdedium-blue-color: #254ef4;
+$x-light-blue-color: #e8eef3;
+$light-blue-color: #d0dce7;
+
+//font size
+$fs-xxs: 0.625rem; //10px
+$fs-xs: 0.75rem; //12px
+$fs-sm: 0.875rem; //14px
+$fs-md: 1rem; //16px
+
+$fs-xmd: 1.125rem; //18px
+$fs-txmd: 0.9375rem; //15px
+$fs-mxmd: 0.75rem; //18px
+
+$fs-xxmd: 1.25rem; //20px
+$fs-xl: 1.5625rem; //25px
+$fs-xxxmd: 1.75rem; //28px
+$fs-xxxl: 2.125rem; //34px
+
+$fs-mlg: 1.875rem; //30px
+$fs-tmlg: 1.6875rem; //27px
+$fs-mmlg: 1.5rem; //24px
+
+$fs-mxl: 2.5rem; //40px
+$fs-tmxl: 2.3125rem; //37px
+$fs-mmxl: 2.125rem; //34px
+
+$fs-xxxxl: 3.125rem; //50px
+$fs-txxxxl: 2.9375rem; //47px
+$fs-mxxxxl: 2.75rem; //44px
+
+$fs-xxl: 4.375rem; //70px
+$fs-txxl: 4.1875rem; //67px
+$fs-mxxl: 4rem; //64px
+
+$fs-5xl: 3.25rem; //52px
+
+//font weight
+$fw-light: 300;
+$fw-normal: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+$fw-extrabold: 700;
+$fw-black: 800;
+$fw-bold: 900;
+
+// $primary: #309052;
+// $green-plan-a: rgba(136, 139, 151, 0.8);
+$primary-light: #c4c5cc;
+$secondary: #ffffff;
+$secondary-light: #e0a500;
+$bg-primary: #151515;
+$bg-seconadry: #141414;
+
+$bg-icon: rgb(85, 118, 141, 0.5);
+
+$placehilder-dark: #fdfdfd;
+$bg-gray: #393e46;
+$bg-overlay: rgba(34, 34, 34, 0.9);
+$color-primary: #e0e0e0;
+$white: #ffffff;
+$color-secondary: #e8e8e8;
+// $gray: #e8e8e8;
+$bg-text: rgba(64, 81, 93, 0.2);
+$bg-input-dark: rgb(61, 61, 61, 0.9);
+$color: #474747;
+$color-2: #707070;
+$gray-2: rgb(109, 109, 109, 0.6);
+$gray-4: #313131;
+$bg-paragraph: hsla(205, 18%, 31%, 0.2);
+$bg-input-light: #ffffff;
+
+$color-white-alpha-1: rgba(255, 255, 255, 0.2);
+
+$gradient: radial-gradient(
+  circle,
+  rgba(136, 139, 151, 0.7011846975118172) 0%,
+  rgba(136, 139, 151, 0.3) 24%,
+  rgba(33, 33, 33, 0) 49%,
+  rgba(33, 33, 33, 1) 100%
+);
+$gradient-lg: radial-gradient(
+  circle,
+  rgba(136, 139, 151, 0.7011846975118172) 0%,
+  rgba(136, 139, 151, 0.3) 16%,
+  rgba(33, 33, 33, 0) 36%,
+  rgba(33, 33, 33, 1) 100%
+);
+
+$gradient-section: linear-gradient(
+  180deg,
+  rgba(44, 44, 44, 1) 0%,
+  rgba(44, 44, 44, 1) 50%,
+  rgba(34, 34, 34, 1) 50%,
+  rgba(34, 34, 34, 1) 100%
+);
+$gradient-section-0Deg: linear-gradient(
+  0deg,
+  rgba(44, 44, 44, 1) 0%,
+  rgba(44, 44, 44, 1) 50%,
+  rgba(34, 34, 34, 1) 50%,
+  rgba(34, 34, 34, 1) 100%
+);
+$shadow-cart: 0 3px 6px hsla(0, 0%, 0%, 0.16);
+$text-shadow: 0 0px 3px rgba(0, 0%, 0%, 0.3);
+
+$border: 2px solid $color;
+// $border-light: 1px solid $gray;
+$border-light-light: 1px solid $color-secondary;
+$border-secondary-color: 2px solid $secondary;
+$border-white: 1px solid $white;
+
+$f-title-slider-sm: 34px Cheapsman;
+$f-title-slider: 50px Cheapsman;
+$f-counter-slider: 30px Cheapsman;
+
+$f-secondary: 16px Gothic_reqular;
+$f-primary: 16px Gothic_bold;
+
+//$f-title-primary: 28px Corbel_Bold;
+$f-title-secondary: 20px Corbel_Bold;
+
+//$f-small-item-text: 12px Gothic_reqular;
+
+//$f-description: 16px Bahnschrift_Light;
+
+$f-small-item-description: 12px Bahnschrift;
+$f-components: 14px Bahnschrift;

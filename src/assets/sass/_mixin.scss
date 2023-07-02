@@ -1,0 +1,198 @@
+@mixin mobile {
+  @media screen and (max-width: 47.9375rem) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: 62rem) and (max-width: 118.75rem) {
+    @content;
+  }
+}
+
+@mixin xldesktop {
+  @media screen and (min-width: 118.75rem) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: 48rem) and (max-width: 61.9375rem) {
+    @content;
+  }
+}
+
+@mixin all_fonts_styles(
+  $font-size,
+  $font-weight,
+  $font-family: Gothic_reqular,
+  $color
+) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  font-family: $font-family;
+  color: $color;
+}
+
+@mixin input_container(
+  $background-color,
+  $border,
+  $border-top-left-radius,
+  $border-top-right-radius,
+  $border-bottom-left-radius,
+  $border-bottom-right-radius
+) {
+  background-color: $background-color;
+  border: $border;
+  border-top-right-radius: $border-top-right-radius;
+  border-top-left-radius: $border-top-left-radius;
+  border-bottom-left-radius: $border-bottom-left-radius;
+  border-bottom-right-radius: $border-bottom-right-radius;
+}
+
+@mixin yellow_button(
+  $border-radius,
+  $background-color: $yellow-color,
+  $layer-background: $white-color
+) {
+  background-color: $background-color;
+  position: relative;
+  z-index: 0;
+  border-radius: $border-radius;
+  border: none;
+  outline: none;
+  box-shadow: none;
+
+  &:hover {
+    &::before {
+      transition: all ease-in-out 0.4s;
+      transform: translateX(-50%) translateY(-50%);
+      opacity: 1;
+      background-color: $layer-background;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &::before {
+    border-radius: $border-radius;
+    transition: all ease-in-out 0.4s;
+    content: "";
+    display: block;
+    z-index: -1;
+    background-color: $layer-background;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 115%;
+    height: 115%;
+  }
+}
+@mixin blue_white_button($background-color: #000, $hover-background: #1f2937) {
+  background-color: $background-color;
+  position: relative;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: $hover-background;
+  }
+}
+
+@mixin stroke_color($fill_color, $stroke_width, $stroke_color) {
+  -webkit-text-fill-color: $fill_color;
+  -webkit-text-stroke-width: $stroke_width;
+  -webkit-text-stroke-color: $stroke_color;
+}
+
+@mixin hexagon_generator($backrgound-color: null, $width, $height) {
+  width: $width;
+  height: $height;
+  background-color: $backrgound-color;
+  -webkit-clip-path: polygon(
+    25% 0%,
+    75% 0%,
+    100% 50%,
+    75% 100%,
+    25% 100%,
+    0% 50%
+  );
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+@mixin border-notch($tl: null, $tr: null, $br: null, $bl: null) {
+  // fix type errors
+  @if ($tl==0) {
+    $tl: 0px;
+  }
+
+  @if ($tr==0) {
+    $tr: 0px;
+  }
+
+  @if ($br==0) {
+    $br: 0px;
+  }
+
+  @if ($bl==0) {
+    $bl: 0px;
+  }
+
+  @if ($bl==null) {
+    @if ($br==null) {
+      @if ($tr==null) {
+        // all corners
+        clip-path: polygon(
+          #{$tl} 0,
+          calc(100% - #{$tl}) 0,
+          100% #{$tl},
+          100% calc(100% - #{$tl}),
+          calc(100% - #{$tl}) 100%,
+          #{$tl} 100%,
+          0 calc(100% - #{$tl}),
+          0 #{$tl}
+        );
+      } @else {
+        // tl & br, tr & bl
+        clip-path: polygon(
+          #{$tl} 0,
+          calc(100% - #{$tr}) 0,
+          100% #{$tr},
+          100% calc(100% - #{$tl}),
+          calc(100% - #{$tl}) 100%,
+          #{$tr} 100%,
+          0 calc(100% - #{$tr}),
+          0 #{$tl}
+        );
+      }
+    } @else {
+      // tl, tr & bl, br
+      clip-path: polygon(
+        #{$tl} 0,
+        calc(100% - #{$tr}) 0,
+        100% #{$tr},
+        100% calc(100% - #{$br}),
+        calc(100% - #{$br}) 100%,
+        #{$tr} 100%,
+        0 calc(100% - #{$tr}),
+        0 #{$tl}
+      );
+    }
+  } @else {
+    // tl, tr, br, bl
+    clip-path: polygon(
+      #{$tl} 0,
+      calc(100% - #{$tr}) 0,
+      100% #{$tr},
+      100% calc(100% - #{$br}),
+      calc(100% - #{$br}) 100%,
+      #{$bl} 100%,
+      0 calc(100% - #{$bl}),
+      0 #{$tl}
+    );
+  }
+}
