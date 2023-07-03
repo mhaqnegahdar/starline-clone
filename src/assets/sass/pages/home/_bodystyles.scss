@@ -1,0 +1,22 @@
+.bodystyle {
+  &__title {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  &__card {
+    height: 220px !important;
+    &:hover .bodystyle__image {
+      transform: scale(1.1);
+    }
+  }
+
+  &__image {
+    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out,
+      -moz-transform 0.3s ease-in-out;
+  }
+
+  &__image-title {
+    background-color: rgba(30, 41, 59, 0.6980392157);
+  }
+}
