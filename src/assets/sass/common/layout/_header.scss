@@ -2,6 +2,14 @@
   &--background {
     background-color: #060606;
   }
-  &__background {
+}
+
+.infobar {
+  &__burgur-icon {
+    &:hover {
+      color: $red-color;
+      cursor: pointer;
+      transition: ease 100ms;
+    }
   }
 }
