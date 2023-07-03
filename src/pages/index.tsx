@@ -11,6 +11,7 @@ import CTA from "@/components/layout/home/CTA";
 import Testimonial from "@/components/layout/home/Testimonial";
 import HeroSlider from "@/components/layout/home/HeroSlider";
 import WhyUs from "@/components/layout/home/WhyUs";
+import BodyStyles from "@/components/layout/home/BodyStyles";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,6 +31,7 @@ export default function Home() {
         <About />
         <Articles />
         <WhyUs />
+        <BodyStyles />
         <Testimonial />
         <CTA />
       </main>
