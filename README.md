@@ -15,9 +15,13 @@ Explore the [demo](https://maxjn-starline-clone.vercel.app/) for better understa
 
 ## Features
 
-- Hero Section
+- Header
 - Nav Menu
-- Slider
+- Hero Section
+- Advanced Search
+- About Us
+- Why Choose Us
+- Footer
 
 ## Installation
 
@@ -35,4 +39,4 @@ npm run dev
 
 ## Screenshots
 
-![Cover](./public/cover.png)
+![Cover](./public/images/cover.png)
