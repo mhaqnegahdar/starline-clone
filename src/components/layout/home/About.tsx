@@ -3,7 +3,7 @@ const About = () => {
     <section className="about object-fit-cover position-relative row ">
       <div className="about__shape1 position-absolute top-0 start-0 h-100 z-2"></div>
       <div className="about__shape2 position-absolute top-0 start-0 h-100 z-2"></div>
-      <div className="p-0 m-0 col-12 col-md-7 col-lg-5 px-3 px-md-5 h-100 d-flex flex-column justify-content-around  position-absolute z-3">
+      <div className="p-0 m-0 col-12 col-md-10 col-lg-7 col-xl-6 px-3 px-md-5 h-100 d-flex flex-column justify-content-around  position-absolute z-3">
         <div className=" w-100 p-0 m-0  col-md-7  px-3 px-md-5">
           <h1 className="p-0 px-2 m-0 py-4">
             Welcom to<br></br>House Of Cars
