@@ -1,5 +1,3 @@
-$breakpoint: 768px;
-
 .cta {
   background-color: #111;
   background-image: url(https://image123.azureedge.net/houseofcars/9765954624690638-woman-enjoying-her-financially-independence-while-buying-car-_1_-min.webp);
@@ -27,12 +25,12 @@ $breakpoint: 768px;
   }
 
   &__shape1 {
-    @media screen and (max-width: $breakpoint) {
+    @include xs {
       width: 100%;
       background-color: rgba(27, 27, 29, 0.9);
       clip-path: inset(0 0 0 0);
     }
-    @media screen and (min-width: $breakpoint) {
+    @include md {
       width: 42%;
       background-color: rgba(27, 27, 29, 0.4509803922);
       clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
@@ -43,8 +41,9 @@ $breakpoint: 768px;
     -webkit-clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
     width: 35%;
-    @media screen and (max-width: $breakpoint) {
-      display: none;
+    display: none;
+    @include md {
+      display: block;
     }
   }
 }

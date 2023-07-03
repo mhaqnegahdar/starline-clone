@@ -8,6 +8,7 @@ import About from "@/components/layout/home/About";
 import Articles from "@/components/layout/home/Articles";
 import Footer from "@/components/common/layout/footer/Footer";
 import CTA from "@/components/layout/home/CTA";
+import Testimonial from "@/components/layout/home/Testimonial";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,6 +26,7 @@ export default function Home() {
         <AdvancedSearch />
         <About />
         <Articles />
+        <Testimonial />
         <CTA />
       </main>
       <Footer />

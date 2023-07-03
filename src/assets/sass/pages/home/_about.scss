@@ -6,15 +6,18 @@ $breakpoint: 768px;
   background-size: cover;
   background-repeat: no-repeat;
 
-  @media screen and (max-width: $breakpoint) {
+  @include xs {
     height: 480px;
     min-height: 480px;
     background-position: center;
   }
-  @media screen and (min-width: $breakpoint) {
+  @include md {
     height: 543px;
     min-height: 543px;
     background-position: 150px;
+  }
+
+  &__content {
   }
 
   &__button {
@@ -22,12 +25,12 @@ $breakpoint: 768px;
   }
 
   &__shape1 {
-    @media screen and (max-width: $breakpoint) {
+    @include sm {
       width: 100%;
       background-color: rgba(27, 27, 29, 0.9);
       clip-path: inset(0 0 0 0);
     }
-    @media screen and (min-width: $breakpoint) {
+    @include md {
       width: 52%;
       background-color: rgba(27, 27, 29, 0.45098039);
       -webkit-clip-path: polygon(0 0, 80.6% 0, 100% 100%, 0 100%);
@@ -39,8 +42,9 @@ $breakpoint: 768px;
     -webkit-clip-path: polygon(0 0, 80.6% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 0, 80.6% 0, 100% 100%, 0 100%);
     width: 45%;
-    @media screen and (max-width: $breakpoint) {
-      display: none;
+    display: none;
+    @include md {
+      display: block;
     }
   }
 }
