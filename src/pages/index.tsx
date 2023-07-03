@@ -9,6 +9,7 @@ import Articles from "@/components/layout/home/Articles";
 import Footer from "@/components/common/layout/footer/Footer";
 import CTA from "@/components/layout/home/CTA";
 import Testimonial from "@/components/layout/home/Testimonial";
+import HeroSlider from "@/components/layout/home/HeroSlider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function Home() {
       </Head>
       <Header />
       <main className={` ${inter.className} `}>
+        <HeroSlider />
         <AdvancedSearch />
         <About />
         <Articles />

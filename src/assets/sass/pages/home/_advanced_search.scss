@@ -1,0 +1,7 @@
+.search {
+  &__input-container {
+    @include lg {
+      width: 200% !important;
+    }
+  }
+}
