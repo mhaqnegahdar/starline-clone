@@ -1,0 +1,22 @@
+.hero-slider {
+  &__slide {
+    @include xs {
+      height: 250px;
+    }
+    @include md {
+      height: 350px;
+    }
+
+    @include lg {
+      height: 500px;
+    }
+  }
+
+  &__slide-image {
+  }
+  &__slide-shadow {
+    @include lg {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
+}

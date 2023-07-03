@@ -10,7 +10,7 @@ Explore the [demo](https://maxjn-starline-clone.vercel.app/) for better understa
 - TypeScript
 - **Nextjs v13.4**
 - **Main Packages:** bootstrap, sass
-- **Secondary Packages:** react-icons
+- **Secondary Packages:** react-icons, swiper
 - **Routing:** useing page directory
 
 ## Features
@@ -21,6 +21,8 @@ Explore the [demo](https://maxjn-starline-clone.vercel.app/) for better understa
 - Advanced Search
 - About Us
 - Why Choose Us
+- Testimonials
+- CTA Section
 - Footer
 
 ## Installation

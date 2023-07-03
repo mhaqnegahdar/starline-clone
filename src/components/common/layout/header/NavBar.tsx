@@ -61,7 +61,7 @@ const menuInfos = [
 
 const NavBar = ({ toggle, setToggle }: ToggleStateType) => {
   return (
-    <nav className=" navbar border-0 border-top-2 border-bottom-2 border-white p-0 px-lg-5 py-2 m-0 mt-md-3 position-relative ">
+    <nav className=" navbar border-0 border-top-2 border-bottom-2 border-white position-relative ">
       {/* Menu On Larg Screen */}
       <ul className="menu d-none d-lg-flex justify-content-around w-100 navbar ">
         {menuItems.map(({ key, title, link, subLinks }) => (
