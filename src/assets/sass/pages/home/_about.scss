@@ -1,21 +1,8 @@
-$breakpoint: 768px;
-
 .about {
   background-color: #111;
   background-image: url(https://image123.azureedge.net/houseofcars/13792426784435152-houseofcars.welcome.webp);
   background-size: cover;
   background-repeat: no-repeat;
-
-  @include xs {
-    height: 480px;
-    min-height: 480px;
-    background-position: center;
-  }
-  @include md {
-    height: 543px;
-    min-height: 543px;
-    background-position: 150px;
-  }
 
   &__content {
   }
@@ -33,20 +20,28 @@ $breakpoint: 768px;
       clip-path: inset(0 0 0 0);
     }
     @include md {
-      width: 52%;
+      width: 67%;
       background-color: rgba(27, 27, 29, 0.45098039);
       -webkit-clip-path: polygon(0 0, 80.6% 0, 100% 100%, 0 100%);
       clip-path: polygon(0 0, 80.6% 0, 100% 100%, 0 100%);
+    }
+
+    @include lg {
+      width: 52%;
     }
   }
   &__shape2 {
     background-color: #111;
     -webkit-clip-path: polygon(0 0, 80.6% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 0, 80.6% 0, 100% 100%, 0 100%);
-    width: 45%;
     display: none;
     @include md {
       display: block;
+      width: 60%;
+    }
+
+    @include lg {
+      width: 45%;
     }
   }
 }

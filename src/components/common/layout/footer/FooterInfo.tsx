@@ -19,9 +19,9 @@ const FooterInfo = () => {
   return (
     <div className="footer-info p-0 m-0 col-11 d-flex row p-1 p-md-2 justify-content-center align-items-stretch">
       <div className=" p-0 m-0 col-lg-4 col-12 px-sm-3 row pb-lg-0 pb-4">
-        <div className="col-sm-6 col-12 col-lg-12 px-2 ">
+        <div className=" col-sm-6 col-12 col-lg-12 px-2 ">
           <h4 className="py-2 align-items-center ">Dealership</h4>
-          <div>
+          <div className="max-line">
             We know that buying a car may be a huge decision and can be
             unpleasant. We endeavor to assist make this prepare as simple and
             push free as conceivable. We have been in trade for a long time,
@@ -56,7 +56,7 @@ const FooterInfo = () => {
           ))}
         </div>
       </div>
-      <div className="col-lg-5 col-sm-6 col-12 p-3">
+      <div className="col-lg-5 col-sm-6 col-12 p-3 px-0 px-md-3">
         <iframe
           allow="geolocation"
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11567.612124280397!2d-79.8796871!3d43.5460632!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b6fe7da895f89%3A0x7fc19207345e30c9!2sHouse%20of%20Cars!5e0!3m2!1sen!2s!4v1685906118455!5m2!1sen!2s"

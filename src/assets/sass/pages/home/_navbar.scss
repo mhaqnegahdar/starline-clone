@@ -4,10 +4,6 @@
 }
 
 .menu {
-  ul {
-    list-style-type: none;
-  }
-
   &__item {
     text-transform: uppercase;
     font-weight: 600;
@@ -20,7 +16,6 @@
       font-weight: 400 !important;
       transition: ease 100ms;
       color: #b91c1c !important;
-
       .active {
         color: #b91c1c !important;
       }
@@ -34,7 +29,9 @@
     transform: translatex(-50%);
     display: none;
     opacity: 0;
-    transition: ease 300ms;
+    background-color: #111 !important;
+
+    transition: 0.2s ease-in-out !important;
   }
 }
 

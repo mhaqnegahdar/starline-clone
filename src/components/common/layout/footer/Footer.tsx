@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer
       className="footer p-0 m-0 w-100 pt-2 d-flex justify-content-center flex-wrap pt-md-3 pt-lg-4 bg-dark-2"
-      style={{ position: "relative", backgroundColor: "#1E293B" }}
+      style={{ position: "relative", backgroundColor: "#111" }}
     >
       <FooterInfo />
       <FooterLinks />

@@ -26,9 +26,9 @@ const BodyStyles = () => {
       style={{ background: "rgb(38, 38, 38)" }}
     >
       <div className="row justify-content-center align-items-center">
-        <div className="bodystyle__container  col-9">
+        <div className="bodystyle__container col-12  col-md-9 ">
           <h3 className="bodystyle__title pl-4 mb-4 ">Brows Body Style</h3>
-          <div className="d-flex flex-column flex-lg-row w-100 align-items-center justify-content-center gap-2">
+          <div className="d-flex flex-column  flex-lg-row w-100 align-items-center justify-content-center gap-2">
             {data.map(({ key, link, src, title }) => (
               <Link
                 href={link}

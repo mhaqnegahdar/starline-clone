@@ -14,9 +14,9 @@ const FooterLinks = () => {
         <Link
           key={key}
           href={link}
-          className="text-white px-4  text-white m-0 p-2 py-md-0 font-3 "
+          className="footer__link text-white px-4  text-white m-0 p-2 py-md-0  "
         >
-          {title}
+          <p>{title}</p>
         </Link>
       ))}
     </div>

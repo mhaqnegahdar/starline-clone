@@ -3,13 +3,14 @@
   background-image: url(https://image123.azureedge.net/houseofcars/9765954624690638-woman-enjoying-her-financially-independence-while-buying-car-_1_-min.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  @media screen and (max-width: $breakpoint) {
+  @include xs {
     background-position: center;
-    height: 200px;
-    min-height: 200px;
-    max-height: 200px;
+    height: 250px;
+    min-height: 250px;
+    max-height: 250px;
   }
-  @media screen and (min-width: $breakpoint) {
+
+  @include md {
     background-position: -150px;
     height: 400px;
     min-height: 400px;

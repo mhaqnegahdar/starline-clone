@@ -1,6 +1,6 @@
 const CTA = () => {
   return (
-    <section className="cta object-fit-cover position-relative d-flex  ">
+    <section className="cta object-fit-cover position-relative d-flex   ">
       <div className="cta__shape1 position-absolute top-0 end-0 h-100 z-2"></div>
       <div className="cta__shape2 position-absolute top-0 end-0 h-100 z-2"></div>
       <div className=" w-100 text-md-end text-center  p-0 m-0 col-12 col-md-7 col-lg-5 px-3 px-md-5  pt-md-5 h-100 d-flex flex-column justify-content-center  position-absolute z-3">
