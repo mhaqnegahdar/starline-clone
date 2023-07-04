@@ -107,7 +107,7 @@ const NavBar = ({ toggle, setToggle }: ToggleStateType) => {
       </div>
       {/* Offcanvas Menu */}
       {toggle === true ? (
-        <ul className="offmenu d-flex flex-column align-items-start w-100 navbar position-absolute bg-white top-100 shadow-lg   ">
+        <ul className="offmenu d-flex flex-column align-items-start w-100 navbar position-absolute bg-white start-0 top-100 shadow-lg   ">
           {menuItems.map(menuItem => (
             <OffmenuItem key={menuItem.key} item={menuItem} />
           ))}

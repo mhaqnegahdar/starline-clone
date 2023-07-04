@@ -45,10 +45,10 @@ const Testimonial = () => {
       <div className="testimonial__container ">
         {/* Heading */}
         <div className="row align-items-center mb-3">
-          <div className="col-12 col-md-6 p-0 m-0 px-3 py-3">
+          <div className="col-12 col-md-7 p-0 m-0 px-3 py-3">
             <h3 className=" ">Hear what our customers say:</h3>
           </div>
-          <div className="col-12 col-md-6 p-0 m-0 px-3 pt-3">
+          <div className="col-12 col-md-5 p-0 m-0 px-3 pt-3">
             <button className="btn btn-danger rounded-0 p-0 m-0  px-4 py-1">
               Read More at Google
             </button>

@@ -34,10 +34,15 @@
       background-color: rgba(27, 27, 29, 0.9);
       clip-path: inset(0 0 0 0);
     }
+
     @include md {
-      width: 42%;
       background-color: rgba(27, 27, 29, 0.4509803922);
       clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
+      width: 47%;
+    }
+
+    @include lg {
+      width: 42%;
     }
   }
   &__shape2 {
@@ -46,8 +51,18 @@
     clip-path: polygon(25% 0, 100% 0, 100% 100%, 0 100%);
     width: 35%;
     display: none;
+
+    @include sm {
+      width: 40%;
+    }
+
     @include md {
       display: block;
+      width: 40%;
+    }
+
+    @include lg {
+      width: 35%;
     }
   }
 }
