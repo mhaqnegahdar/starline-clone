@@ -74,7 +74,7 @@ const NavBar = ({ toggle, setToggle }: ToggleStateType) => {
               {subLinks && <MdKeyboardArrowDown size={20} className="" />}
             </Link>
             {subLinks && subLinks?.length > 0 ? (
-              <ul className="menu__sub-item-wrapper position-absolute p-3  bg-black  z-3  ">
+              <ul className="menu__sub-item-wrapper position-absolute p-3    z-3  ">
                 {subLinks?.map(({ key, link, title }) => (
                   <Link
                     key={key}

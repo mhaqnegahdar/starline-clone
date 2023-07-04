@@ -46,7 +46,7 @@ const Testimonial = () => {
         {/* Heading */}
         <div className="row align-items-center mb-3">
           <div className="col-12 col-md-6 p-0 m-0 px-3 py-3">
-            <h3 className="fw-bold  ">Hear what our customers say:</h3>
+            <h3 className=" ">Hear what our customers say:</h3>
           </div>
           <div className="col-12 col-md-6 p-0 m-0 px-3 pt-3">
             <button className="btn btn-danger rounded-0 p-0 m-0  px-4 py-1">
@@ -71,7 +71,7 @@ const Testimonial = () => {
             },
           }}
           spaceBetween={30}
-          className="  testimonial-slider "
+          className="  testimonial-slider me-md-5 "
         >
           {testimonial.map(({ key, name, text }) => (
             <SwiperSlide key={key}>
@@ -80,10 +80,10 @@ const Testimonial = () => {
                   size={60}
                   className="slide__profile position-absolute "
                 />
-                <h6 className="slide__title fw-bold h5  pb-1 text-nowrap">
+                <h6 className="slide__title slide__title--max-line fw-bold h5  pb-1 ">
                   {name}{" "}
                 </h6>
-                <p className="slide__text">{text}</p>
+                <p className="slide__text slide__text--max-line">{text}</p>
               </div>
             </SwiperSlide>
           ))}

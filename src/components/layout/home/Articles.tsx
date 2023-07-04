@@ -22,7 +22,7 @@ const Articles = () => {
             alt="Sumbnail"
           />
           <div className="article__info  position-absolute top-50 start-50  translate-middle d-flex flex-column align-items-center justify-content-center py-2 px-3  z-3">
-            <BsCarFrontFill size={50} className="text-danger" />
+            <BsCarFrontFill size={50} className="article__icon" />
             <p className="text-uppercase py-2 text-white text-center">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Consequuntur, quibusdam!
@@ -44,7 +44,7 @@ const Articles = () => {
               alt="Sumbnail"
             />
             <div className="article__info  position-absolute top-50 start-50  translate-middle d-flex flex-column align-items-center justify-content-center py-2 px-3  z-3">
-              <FaDollarSign size={50} className="text-danger" />
+              <FaDollarSign size={50} className="article__icon" />
               <p className="text-uppercase py-2 text-white text-center">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Consequuntur, quibusdam!
@@ -65,7 +65,7 @@ const Articles = () => {
               alt="Sumbnail"
             />
             <div className="article__info  position-absolute top-50 start-50  translate-middle d-flex flex-column align-items-center justify-content-center py-2 px-3  z-3">
-              <IoIosChatbubbles size={50} className="text-danger" />
+              <IoIosChatbubbles size={50} className="article__icon" />
               <p className="text-uppercase py-2 text-white text-center">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Consequuntur, quibusdam!

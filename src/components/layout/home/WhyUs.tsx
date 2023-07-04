@@ -41,7 +41,7 @@ const WhyUs = () => {
             key={key}
             className="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center justify-content-center gap-3 py-3 px-4 "
           >
-            <div className="rounded-circle bg-danger p-4 d-flex justify-content-center align-items-center">
+            <div className="whyus__icon rounded-circle p-4 d-flex justify-content-center align-items-center">
               {Icon && <Icon size={30} />}
             </div>
             <div className="text-center fw-bold h5">{title}</div>
