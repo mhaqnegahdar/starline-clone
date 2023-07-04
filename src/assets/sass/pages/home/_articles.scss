@@ -1,4 +1,32 @@
 .article {
   background-color: #262626;
-  min-height: 550px;
+
+  &__image {
+    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out,
+      -moz-transform 0.3s ease-in-out;
+  }
+
+  &__card {
+    &:hover {
+      img {
+        transform: scale(1.2);
+      }
+    }
+
+    @include xs() {
+      min-height: 250px;
+    }
+
+    &--first {
+      @include lg() {
+        min-height: 500px;
+      }
+    }
+  }
+
+  &__info {
+    width: 92%;
+    background-color: rgba(0, 0, 0, 0.568627451);
+    font-size: 14px;
+  }
 }
