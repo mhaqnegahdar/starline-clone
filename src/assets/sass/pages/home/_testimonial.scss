@@ -7,6 +7,9 @@
     @include sm {
       font-size: 30px;
     }
+    @include lg {
+      font-size: 40px;
+    }
     font-weight: 900;
   }
 

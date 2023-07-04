@@ -8,9 +8,7 @@ const AdvancedSearch = () => {
             aria-label="Default select example"
             defaultValue={0}
           >
-            <option selected value={0}>
-              Make
-            </option>
+            <option value={0}>Make</option>
             <option value="1">One</option>
             <option value="2">Two</option>
             <option value="3">Three</option>
@@ -22,9 +20,7 @@ const AdvancedSearch = () => {
             aria-label="Default select example"
             defaultValue={0}
           >
-            <option selected value={0}>
-              Model{" "}
-            </option>
+            <option value={0}>Model </option>
             <option value="1">One</option>
             <option value="2">Two</option>
             <option value="3">Three</option>
@@ -37,9 +33,7 @@ const AdvancedSearch = () => {
               aria-label="Default select example"
               defaultValue={0}
             >
-              <option selected value={0}>
-                Min Year{" "}
-              </option>
+              <option value={0}>Min Year </option>
               <option value="1">One</option>
               <option value="2">Two</option>
               <option value="3">Three</option>
@@ -51,9 +45,7 @@ const AdvancedSearch = () => {
               aria-label="Default select example"
               defaultValue={0}
             >
-              <option selected value="0">
-                Max Year{" "}
-              </option>
+              <option value="0">Max Year </option>
               <option value="1">One</option>
               <option value="2">Two</option>
               <option value="3">Three</option>
