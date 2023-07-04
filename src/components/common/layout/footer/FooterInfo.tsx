@@ -1,4 +1,7 @@
+//Hooks
 import Link from "next/link";
+
+//Icons
 import { AiTwotonePhone } from "react-icons/ai";
 import { HiLocationMarker } from "react-icons/hi";
 
