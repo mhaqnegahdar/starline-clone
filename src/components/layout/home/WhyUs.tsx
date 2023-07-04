@@ -31,8 +31,8 @@ const data = [
 ];
 const WhyUs = () => {
   return (
-    <section className="row p-0 m-0 w-100 px-md-0 justify-content-center py-4 bg-dark-2">
-      <h3 className="text-uppercase p-0 m-0 pt-5 pb-4 text-center">
+    <section className=" whyus row p-0 m-0 w-100 px-md-0 justify-content-center py-4 bg-dark-2">
+      <h3 className="whyus__heading text-uppercase text-center p-0 m-0 pt-5 pb-4  ">
         Why Choose Us
       </h3>
       <div className="p-4 row">
@@ -44,8 +44,8 @@ const WhyUs = () => {
             <div className="rounded-circle bg-danger p-4 d-flex justify-content-center align-items-center">
               {Icon && <Icon size={30} />}
             </div>
-            <h5 className="text-center fw-bold">{title}</h5>
-            <p className="text-center">{info}</p>
+            <div className="text-center fw-bold h5">{title}</div>
+            <div className="text-center">{info}</div>
           </div>
         ))}
       </div>

@@ -10,7 +10,7 @@ body {
     Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 
   * {
-    font-family: "Montserrat", "Open Sans", "Ubuntu";
+    font-family: "Montserrat", "Open Sans", "Ubuntu" !important;
     // font-family: IBMPlexSan, -apple-system, BlinkMacSystemFont, "Segoe UI",
     //   Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     //   sans-serif;
@@ -62,6 +62,14 @@ ul {
 
 p {
   margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif, Arial, Helvetica,
+    sans-serif !important;
+}
+
+span {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif !important;
 }
 
 label {
@@ -82,6 +90,18 @@ input:focus {
 button {
   outline: none;
   border: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+  transition: 0.2s ease-in-out !important;
+  &:hover {
+    background-color: #b91c1c !important;
+    text-shadow: 1px 1px 0 #000;
+  }
+}
+
+div {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
 }
 
 h1,
@@ -91,6 +111,7 @@ h4,
 h5,
 h6 {
   margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
 }
 
 li {

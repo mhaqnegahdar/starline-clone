@@ -12,6 +12,7 @@ import Testimonial from "@/components/layout/home/Testimonial";
 import HeroSlider from "@/components/layout/home/HeroSlider";
 import WhyUs from "@/components/layout/home/WhyUs";
 import BodyStyles from "@/components/layout/home/BodyStyles";
+import Chat from "@/components/common/layout/Chat/Chat";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -36,6 +37,7 @@ export default function Home() {
         <CTA />
       </main>
       <Footer />
+      <Chat />
     </>
   );
 }

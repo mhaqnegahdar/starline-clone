@@ -9,7 +9,7 @@ import { FaDollarSign } from "react-icons/fa";
 
 const Articles = () => {
   return (
-    <section className="article row p-3 justify-content-center align-items-center ">
+    <section className="article row p-4 justify-content-center align-items-center ">
       <div className="article__container  p-0 m-0 col-12 col-md-11 col-lg-9 py-4 d-flex flex-column flex-lg-row gap-xl-3 gap-lg-2  gap-4 ">
         <Link
           href="#"
@@ -27,7 +27,7 @@ const Articles = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Consequuntur, quibusdam!
             </p>
-            <button className="border border-2 border-danger fw-bold  bg-transparent p-2 text-white">
+            <button className="border border-2 border-danger  bg-transparent p-2 text-white">
               View Inventory
             </button>
           </div>
@@ -49,7 +49,7 @@ const Articles = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Consequuntur, quibusdam!
               </p>
-              <button className="border border-2 border-danger fw-bold  bg-transparent p-2 text-white text-uppercase">
+              <button className="border border-2 border-danger  bg-transparent p-2 text-white text-uppercase">
                 Apply For Financing
               </button>
             </div>
@@ -70,7 +70,7 @@ const Articles = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Consequuntur, quibusdam!
               </p>
-              <button className="border border-2 border-danger fw-bold  bg-transparent p-2 text-white text-uppercase">
+              <button className="border border-2 border-danger  bg-transparent p-2 text-white text-uppercase">
                 Contact Us{" "}
               </button>
             </div>
