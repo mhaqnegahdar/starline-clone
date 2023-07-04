@@ -1,11 +1,11 @@
 import Link from "next/link";
 
 const links = [
-  { key: 1, title: "Home", link: "#" },
-  { key: 2, title: "LoremLink", link: "#" },
-  { key: 3, title: "Lorem", link: "#" },
-  { key: 4, title: "Link", link: "#" },
-  { key: 5, title: "About", link: "#" },
+  { key: 1, title: "Inventory", link: "#" },
+  { key: 2, title: "Financing", link: "#" },
+  { key: 3, title: "Traid-In Request", link: "#" },
+  { key: 4, title: "Contact Us", link: "#" },
+  { key: 5, title: "About Us", link: "#" },
 ];
 const FooterLinks = () => {
   return (

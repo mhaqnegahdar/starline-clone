@@ -12,7 +12,7 @@ import { ToggleStateType } from "@/types";
 const InfoBar = ({ toggle, setToggle }: ToggleStateType) => {
   return (
     <>
-      <div className=" infobar d-flex justify-content-between align-items-center  p-0 m-0 pt-2 pt-md-3 px-lg-5">
+      <div className=" infobar d-flex justify-content-between align-items-center  p-0 m-0 pt-2 pt-md-3  px-lg-5 px-sm-3 px-0 ">
         <Link href={"#"}>
           <Image
             src={`https://image123.azureedge.net/houseofcars/9168930046748802-9391419316301419-photo_2023-06-08_23-34-49-removebg-preview321.png`}
@@ -26,11 +26,11 @@ const InfoBar = ({ toggle, setToggle }: ToggleStateType) => {
         <div className="info d-flex gap-4 d-none d-lg-flex">
           <div className=" d-flex justify-content-center align-items-center gap-2 ">
             <HiLocationMarker size={17} className="text-danger" />
-            <p>103 - 8215 Lawson Rd, Milton, Ontario, L9T 5E5</p>
+            <span>103 - 8215 Lawson Rd, Milton, Ontario, L9T 5E5</span>
           </div>
           <div className=" d-flex justify-content-center align-items-center gap-2 ">
             <BsFillTelephoneFill size={17} className="text-danger" />
-            <p>905-782-5159</p>
+            <span>905-782-5159</span>
           </div>
         </div>
         {/* Toggle Info */}

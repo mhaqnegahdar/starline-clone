@@ -10,7 +10,7 @@ const CopyRight = () => {
         </Link>
       </div>
       <div className=" p-0 px-1 m-0 py-2 text-decoration-none d-flex align-items-center">
-        Powered by
+        <p> Powered by</p>
         <Image
           src="/images/hillz_big_logo.png"
           width={30}
@@ -18,11 +18,11 @@ const CopyRight = () => {
           alt="Logo"
           className="mx-2"
         />
-        Hillz Dealer
+        <p>Hillz Dealer</p>
       </div>
       <div>
         <Link href="#" className="text-white">
-          Privacy & Policy
+          <p> Privacy & Policy</p>
         </Link>
       </div>
     </div>

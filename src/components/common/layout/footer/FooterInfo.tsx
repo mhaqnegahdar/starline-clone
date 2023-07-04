@@ -12,7 +12,7 @@ const times = [
   { key: 4, day: "Thursday", hour: "10:00 AM - 05:00 PM" },
   { key: 5, day: "Friday", hour: "10:00 AM - 05:00 PM" },
   { key: 6, day: "Saturday", hour: "10:00 AM - 05:00 PM" },
-  { key: 7, day: "Sunday", hour: "close" },
+  { key: 7, day: "Sunday", hour: "Closed" },
 ];
 
 const FooterInfo = () => {
@@ -21,24 +21,24 @@ const FooterInfo = () => {
       <div className=" p-0 m-0 col-lg-4 col-12 px-sm-3 row pb-lg-0 pb-4">
         <div className="col-sm-6 col-12 col-lg-12 px-2 ">
           <h4 className="py-2 align-items-center ">Dealership</h4>
-          <p>
+          <div>
             We know that buying a car may be a huge decision and can be
             unpleasant. We endeavor to assist make this prepare as simple and
             push free as conceivable. We have been in trade for a long time,
             offering tall quality cars at the foremost reasonable costs. We
             endeavor to surpass all your desires when buying a car.
-          </p>
+          </div>
         </div>
         <div className="p-0 m-0 col-12 col-sm-6 col-lg-12 pt-lg-2 px-2 ">
           <h4 className="py-2 align-items-center ">Contact Us</h4>
-          <address className="mb-0 py-1">
+          <address className="mb-0 py-1 d-flex align-items-center">
             <HiLocationMarker size={18} className=" me-1" />
-            103 - 8215 Lawson Rd, Milton, Ontario, L9T 5E5
+            <div>103 - 8215 Lawson Rd, Milton, Ontario, L9T 5E5</div>
           </address>
-          <div className="mb-0 py-1">
+          <div className="mb-0 py-1 d-flex align-items-center">
             <AiTwotonePhone size={18} className="me-1 text-white" />
             <Link href={`tel:9057825159`} className="text-white">
-              905-782-5159
+              <div>905-782-5159</div>
             </Link>
           </div>
         </div>
@@ -51,7 +51,7 @@ const FooterInfo = () => {
               key={key}
               className="w-100 py-1 d-flex justify-content-between list-unstyled"
             >
-              <p>{day}</p> <p>{hour}</p>
+              <div>{day}</div> <div>{hour}</div>
             </div>
           ))}
         </div>

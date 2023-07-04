@@ -1,4 +1,9 @@
 .testimonial {
+  h3 {
+    font-size: 30px;
+    font-weight: 900;
+  }
+
   &__container {
     @include xs {
       padding: 0 15px;

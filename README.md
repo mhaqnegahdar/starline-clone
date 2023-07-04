@@ -20,10 +20,13 @@ Explore the [demo](https://maxjn-starline-clone.vercel.app/) for better understa
 - Hero Section
 - Advanced Search
 - About Us
+- Articles
 - Why Choose Us
+- BodyStyle
 - Testimonials
 - CTA Section
 - Footer
+- Fixed Chat Button
 
 ## Installation
 
