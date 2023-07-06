@@ -1,8 +1,8 @@
 # Starline Clone - Nextjs v13.4
 
-This is a practical **Starline Clone** using [Next.js](https://nextjs.org/) latest features bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a practical **[Starline](https://hzd-on-houseofcars.azurewebsites.net/) Clone** using [Next.js](https://nextjs.org/) latest features bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Explore the [demo](https://maxjn-starline-clone.vercel.app/) for better understanding'.
+Explore the [demo](https://maxjn-starline-clone.vercel.app/) and the [original](https://hzd-on-houseofcars.azurewebsites.net/) website for better understanding'.
 
 ## Technologies
 
@@ -17,13 +17,13 @@ Explore the [demo](https://maxjn-starline-clone.vercel.app/) for better understa
 
 - Header
 - Nav Menu
-- Hero Section
+- Hero Section Slider
 - Advanced Search
 - About Us
 - Articles
 - Why Choose Us
 - BodyStyle
-- Testimonials
+- Testimonials Slider
 - CTA Section
 - Footer
 - Fixed Chat Button
